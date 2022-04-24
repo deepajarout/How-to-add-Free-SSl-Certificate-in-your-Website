@@ -82,7 +82,7 @@ Nginx’s plugin for Certbot reconfigures Nginx and reloads its configuration wh
 
 4. Finally, the output displays that you have successfully generated a certificate and specifies the location of the certificate on your server.
 
-Step 5: Enable Automatic Certificate Renewal
+## Step 5: Enable Automatic Certificate Renewal
 
 Since Let’s Encrypt certificates expire every 90 days, Nginx recommends setting up and automatic renewal cron job.
 
