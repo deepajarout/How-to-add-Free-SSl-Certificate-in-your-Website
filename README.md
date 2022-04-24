@@ -11,8 +11,15 @@ Certbot is an open-source software tool for automatically enabling HTTPS using L
 
 The first step to securing Nginx with Let’s Encrypt is to install Certbot. To do so, start by opening a terminal window and updating the local repository:
 
-```` #### sudo apt update ````
+````  sudo apt update  ````
 
 Then, download and install Certbot and its Nginx plugin by running:
 
-``` #### sudo apt install certbot python3-certbot-nginx ```
+```  sudo apt install certbot python3-certbot-nginx   ```
+
+Type y to confirm the installation and hit Enter.
+
+
+## Step 2: Check Nginx Configuration
+
+you should already have a registered domain and an Nginx server block for that domain. As an example, this article uses the domain  ### abc.com
